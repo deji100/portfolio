@@ -19,37 +19,18 @@ const Footer = () => {
 
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Community</div>
-                    {/* <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Youtube</span>    
-                    </p> */}
                     <Link href="https://github.com/deji100" target="_blank">
                         <p className="flex flex-row items-center my-[15px] cursor-pointer">
                             <RxGithubLogo />
                             <span className="text-[15px] ml-[6px]">Github</span>    
                         </p>
                     </Link>
-
-                    {/* <Link href="" target="_blank">
-                        <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                            <RxDiscordLogo />
-                            <span className="text-[15px] ml-[6px]">Discord</span>    
-                        </p>
-                    </Link> */}
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Social Media</div>
-                    {/* <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Instagram</span>    
-                    </p> */}
-                    {/* <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Twitter</span>    
-                    </p> */}
                 <Link href="https://www.linkedin.com/in/faruq-adeyemi-5b7a0a1a0/" target="_blank">
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxDiscordLogo />
+                        <RxLinkedinLogo />
                         <span className="text-[15px] ml-[6px]">Linkedin</span>    
                     </p>
                 </Link>
