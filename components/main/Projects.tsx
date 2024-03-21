@@ -28,6 +28,14 @@ const Projects = () => {
           />
         </Link>
 
+        <Link href="https://amorservtalents.com/" target="_blank">
+          <ProjectCard
+            src="/talents.png"
+            title="AmorServ Talent Website"
+            description="AmorServ Talent website showcasing Africa Tech talents. Web and mobile responsive web app. Built with Reactjs, Redux Toolkit and some great libraries."
+          />
+        </Link>
+
         <Link href="/">
           <ProjectCard
             src="/port.png"
