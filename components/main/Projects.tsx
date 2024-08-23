@@ -36,6 +36,14 @@ const Projects = () => {
           />
         </Link>
 
+        <Link href="https://www.thefiberopticacademy.com/" target="_blank">
+          <ProjectCard
+            src="/foa.png"
+            title="The Fiber Optic Academy"
+            description="Amorserv Client's website. Web and mobile responsive website. Built with Next js and some great libraries."
+          />
+        </Link>
+
         <Link href="/">
           <ProjectCard
             src="/port.png"
