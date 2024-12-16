@@ -12,6 +12,14 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full flex flex-row justify-center flex-wrap gap-10 px-10">
+        <Link href="https://plankton-app-xb72l.ondigitalocean.app/" target="_blank">
+          <ProjectCard
+            src="/anamo.png"
+            title="Anamo CyberSecurity Website/App"
+            description="A Cybersecurity Software for detecting and monitoring vulnerabilities in personal or company systems and keep records including providing patches or KBS for updating OS"
+          />
+        </Link>
+
         <Link href="https://amorserv.com/" target="_blank">
           <ProjectCard
             src="/portfolio.png"
