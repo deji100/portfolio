@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
-import Link from "next/link"
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -12,7 +12,43 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full flex flex-row justify-center flex-wrap gap-10 px-10">
-        <Link href="https://plankton-app-xb72l.ondigitalocean.app/" target="_blank">
+        <Link
+          href="https://validus.nexus/"
+          target="_blank"
+        >
+          <ProjectCard
+            src="/validus.png"
+            title="Validus – Connect. Collaborate. Grow."
+            description="Validus is a Flutter-based mobile app that connects like-minded people — especially founders and funders — fostering trust, collaboration, and a healthy community. It’s built to make meaningful networking effortless, helping innovators and investors share ideas, opportunities, and build genuine relationships."
+          />
+        </Link>
+
+        <Link
+          href="https://neuvault.app/"
+          target="_blank"
+        >
+          <ProjectCard
+            src="/neuvault.png"
+            title="NeuVault – Your Intelligent Personal Data Vault."
+            description="NeuVault is an AI-powered personal data vault that automatically organizes, summarizes, and secures your documents. It uses intelligent classification and privacy-first design to help you easily find, understand, and manage all your important files in one smart, secure space."
+          />
+        </Link>
+
+        <Link
+          href="https://scanyour.app/"
+          target="_blank"
+        >
+          <ProjectCard
+            src="/scanyourapp.png"
+            title="Scanyour.app – Know What’s Inside Your APK."
+            description="Scanyour.app is a web app that allows users to upload and scan APK files to reveal detailed insights about Android applications. It analyzes permissions, SDKs, trackers, and security risks, giving users transparency and control over the apps they use or develop."
+          />
+        </Link>
+
+        <Link
+          href="https://anamo.io/"
+          target="_blank"
+        >
           <ProjectCard
             src="/anamo.png"
             title="Anamo CyberSecurity Website/App"
@@ -84,7 +120,10 @@ const Projects = () => {
           />
         </Link>
 
-        <Link href="https://structured-cabling.amorservtech.com/" target="_blank">
+        <Link
+          href="https://structured-cabling.amorservtech.com/"
+          target="_blank"
+        >
           <ProjectCard
             src="/structured.png"
             title="AmorServ Structured Cabling Landing Page"
