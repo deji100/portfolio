@@ -20,18 +20,18 @@ const Navbar = () => {
           /> */}
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            Faruq Adeyemi
+            {/* Faruq Adeyemi */}
           </span>
         </a>
 
-        <div className="w-[90%] md:w-[500px] h-full flex flex-row items-center justify-between mr-5 md:mr-20">
+        <div className="w-[90%] md:w-[300px] h-full flex flex-row items-center justify-between mr-5 md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[10px] md:px-[20px] py-[10px] rounded-full text-gray-200">
             <a href="#about-me" className="cursor-pointer">
-              About me
+              About
             </a>
-            <a href="#skills" className="cursor-pointer">
+            {/* <a href="#skills" className="cursor-pointer">
               Skills
-            </a>
+            </a> */}
             <a href="#projects" className="cursor-pointer">
               Projects
             </a>
@@ -39,7 +39,7 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row gap-5">
-          {Socials.map((social) => (
+          {/* {Socials.map((social) => (
             <Link key={social.link} href={social.link} target="_blank">
               <Image
                 src={social.src}
@@ -49,7 +49,7 @@ const Navbar = () => {
                 height={24}
               />
             </Link>
-          ))}
+          ))} */}
         </div>
       </div>
     </div>
