@@ -88,13 +88,13 @@ const Projects = () => {
           />
         </Link>
 
-        <Link href="/">
+        {/* <Link href="/">
           <ProjectCard
             src="/port.png"
             title="Portfolio"
             description="A Portfolio describing who I am, my skills and projects. Web and mobile responsive website. Built with Next.js, tailwind css, framer motions and some great libraries."
           />
-        </Link>
+        </Link> */}
 
         <Link href="https://software.amorservsolutions.com/" target="_blank">
           <ProjectCard
