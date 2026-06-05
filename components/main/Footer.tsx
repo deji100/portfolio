@@ -26,7 +26,7 @@ const Footer = () => {
                         </p>
                     </Link>
                 </div>
-                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+                {/* <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Social Media</div>
                 <Link href="https://www.linkedin.com/in/faruq-adeyemi-5b7a0a1a0/" target="_blank">
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
@@ -34,30 +34,30 @@ const Footer = () => {
                         <span className="text-[15px] ml-[6px]">Linkedin</span>    
                     </p>
                 </Link>
-                </div>
+                </div> */}
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">About</div>
                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
                      
-                        <span className="text-[15px] ml-[6px]">Faruq Deji Adeyemi</span>    
+                        <span className="text-[15px] ml-[6px]">Oluwatobi Raji</span>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                       
-                        <span className="text-[15px] ml-[6px]">+2349011735491</span>    
+                        <span className="text-[15px] ml-[6px]">+1 617 468 6922</span>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   
-                        <span className="text-[15px] ml-[6px]">adeyemideji9@gmail.com</span>    
+                        <span className="text-[15px] ml-[6px]"> Oluwatobiraji.sm@gmail.com</span>    
                     </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                    {/* <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   
                         <span className="text-[15px] ml-[6px]">adedejiweb@gmail.com</span>    
-                    </p>
+                    </p> */}
                 </div>
             </div>
 
             <div className="mb-[20px] text-[15px] text-center">
-                &copy;2024. Built by Dejavu
+                &copy;2024. Built by Oluwatobi Raji. All rights reserved.
             </div>
         </div>
     </div>

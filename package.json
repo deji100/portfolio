@@ -32,5 +32,10 @@
     "tailwindcss": "^3",
     "three": "^0.157.0",
     "typescript": "^5"
+  },
+  "pnpm": {
+    "overrides": {
+      "three-mesh-bvh": "0.7.3"
+    }
   }
 }

@@ -86,11 +86,11 @@ export const Skill_data = [
       src: "/gitwhite.png",
       link: "https://github.com/deji100"
     },
-    {
-      name: "LinkedIn",
-      src: "/linkedin.png",
-      link: "https://www.linkedin.com/in/faruq-adeyemi-5b7a0a1a0/"
-    },
+    // {
+    //   name: "LinkedIn",
+    //   src: "/linkedin.png",
+    //   link: "https://www.linkedin.com/in/faruq-adeyemi-5b7a0a1a0/"
+    // },
     // {
     //   name: "Instagram",
     //   src: "/discord.svg",
