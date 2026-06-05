@@ -12,6 +12,7 @@ export default function Home() {
         <Skills />
         <Encryption />
         <Projects />
+        
       </div>
     </main>
   );
